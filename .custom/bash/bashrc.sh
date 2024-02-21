@@ -1,0 +1,1 @@
+test "$CUSTOM_BASH/aliases/aliases.sh" && source "$CUSTOM_BASH/aliases/aliases.sh"

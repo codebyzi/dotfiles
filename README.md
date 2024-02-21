@@ -6,8 +6,8 @@ The idea is to have a folder structure of dotfiles that's easily mapped to in th
 / - .bashrc
   - .custom/
     - bash/
-      - .custom_bashrc
-      - alias/
+      - bashrc.sh
+      - aliases/
         - aliases.sh
       - functions/
         - functions.sh
@@ -16,6 +16,6 @@ The idea is to have a folder structure of dotfiles that's easily mapped to in th
   - install.sh
 ```
 
-`.custom_bashrc` sources all custom config.
+`bashrc.sh` sources all custom config.
 
-`install.sh` should create symlinks in homedir.
+`install.sh` should copy and replace config in homedir.
